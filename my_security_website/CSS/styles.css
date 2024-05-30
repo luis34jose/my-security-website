@@ -1,0 +1,118 @@
+/* Estilos para el navbar */
+.navbar {
+    border-radius: 0ch; /* Bordes rectos */
+    color: black;
+}
+.container-fluid {
+    color: black;
+}
+.navbar-brand {
+    font-size: 1.5rem; /* Tamaño de fuente del enlace de la marca */
+}
+
+.navbar-toggler {
+    border-radius: 0%; /* Sin borde */
+}
+
+.navbar-toggler-icon {
+    color: rgb(212, 20, 20); /* Color del icono del botón de alternancia */
+}
+
+/* Estilos para el contenido principal */
+.main-content {
+    padding-top: 80px; /* Ajuste para dejar espacio para el navbar */
+    text-align: center; /* Centrar el contenido */
+}
+
+.main-content h1 {
+    font-size: 2.5rem; /* Tamaño de fuente del título principal */
+}
+
+.main-content h5 {
+    font-size: 1.2rem; /* Tamaño de fuente del subtítulo */
+    color: #0587f8; /* Color de texto más suave */
+}
+
+/* Estilos para el pie de página */
+.footer {
+    padding: 5px;
+    background-color: #0793f0; /* Color de fondo del pie de página */
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.nav-item {
+    font-size: 1.5rem;
+}
+.intro-text {
+    font-size: 1.1rem; /* Tamaño de fuente */
+    line-height: 1.6; /* Altura de línea */
+    color: #333; /* Color del texto */
+    text-align: justify; /* Alineación justificada */
+}
+
+.intro-text + .intro-text {
+    margin-top: 30px; /* Espacio superior entre párrafos */
+}
+
+hr.my-4 {
+    border-color: #ddd; /* Color de la línea horizontal */
+    margin-top: 20px; /* Espacio superior */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+.col-md-6 .intro-text{
+    color: black;
+}
+.sitio{
+    text-align: center;
+}
+.container .mt-5 {
+    color: black;
+}
+.contra {
+    text-align: center; 
+    color: brown;
+}
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.card {
+    max-width: 18rem;
+    margin: auto;
+    text-align: justify;
+}
+        /* Estilo personalizado para el carrusel */
+        #carouselExample {
+            height: 200px; /* Altura deseada */
+        }
+
+        #carouselExample .carousel-inner {
+            height: 100%;
+        }
+
+        #carouselExample .carousel-item {
+            height: 100%;
+        }
+
+        #carouselExample img {
+            width: 100%; /* Para ocupar todo el ancho */
+            height: 100%; /* Para ocupar toda la altura */
+            object-fit: cover; /* Para que la imagen ocupe todo el espacio sin deformarse */
+        }
+        .alert {
+            text-align: justify;
+        }
+        .navf {
+            text-align: center; 
+            color: rgb(248, 0, 194);
+        }
+        .center {
+            text-align: center; 
+   
+        }
+       
